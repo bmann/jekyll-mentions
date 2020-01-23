@@ -63,3 +63,33 @@ jekyll-mentions:
 ```  
 
 Et voilà! Your mentions will now use that base URL instead of the default of `https://github.com`.
+
+## Advanced
+
+_This is the documention for a new feature, [support per-@ overrides](https://github.com/bmann/jekyll-mentions/issues/1). This repo and _
+
+You can configure per-@ overrides and extended information in your `_data` folder.
+
+1. Create a `mentions.json` file in your data folder
+2. Make entries!
+
+eg:
+
+```
+{
+  "@boris": { "network": "https://linkedin.com" },
+  "@bmann": { "network": "https://twitter.com"},
+  "@borismann": {
+    "name": "Boris Mann",
+    "url": "https://blog.bmannconsulting.com",
+    "photo": "https://blog.bmannconsulting.com/images/bmann_hair_orange_256x256.png"
+  }
+}
+```
+
+Any @-names that are defined in this file will be linked to their custom networks -- or even just linked to an arbitrary URL. This can also be used to create little mini profiles.
+
+Consider using the [h-card property names](https://indieweb.org/h-card) or [person tags](https://indieweb.org/person-tag).
+
+
+
