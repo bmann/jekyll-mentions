@@ -66,7 +66,7 @@ Et voilà! Your mentions will now use that base URL instead of the default of `h
 
 ## Advanced
 
-_This is the documention for a new feature, [support per-@ overrides](https://github.com/bmann/jekyll-mentions/issues/1). This repo and _
+_This is the documention for a new feature, [support per-@ overrides](https://github.com/bmann/jekyll-mentions/issues/1). This repo and its issues is where this will be worked on, and then a PR will be made to upstream_
 
 You can configure per-@ overrides and extended information in your `_data` folder.
 
